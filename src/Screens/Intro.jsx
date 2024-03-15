@@ -36,13 +36,15 @@ const Intro = () => {
         data={items}
         renderItem={({item}) => {
           return (
-            <View className="-mt-32">
+            <View className="-mt-64">
               <Image
                 source={item.image}
                 resizeMode="contain"
                 className="w-full m-auto justify-start align-top"></Image>
-              <Text>{item.title}</Text>
-              <Text>{item.dec}</Text>
+              <View className="flex flex-col align-top content-end">
+                <Text className="text-center -mt-52">{item.title}</Text>
+                <Text>{item.dec}</Text>
+              </View>
             </View>
           );
         }}

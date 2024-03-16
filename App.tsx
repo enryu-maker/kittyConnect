@@ -16,7 +16,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{headerBackTitleVisible: false}}
-        initialRouteName={'Intro'}>
+        initialRouteName={'Kitty'}>
         <Stack.Screen name="Kitty" component={Signup} />
         <Stack.Screen name="Newaccount" component={Newaccount} />
         <Stack.Screen name="Profile" component={Profile} />

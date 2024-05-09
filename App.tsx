@@ -8,6 +8,8 @@ import Profile from './src/Screens/Profile';
 import Otp from './src/Screens/Otp';
 import Newkitty from './src/Screens/Newkitty';
 import Intro from './src/Screens/Intro';
+import Test from './src/Screens/Groups';
+import GroupInfoPage from './src/Screens/GroupInfoPage';
 
 function App() {
   const Stack = createNativeStackNavigator();
@@ -23,6 +25,8 @@ function App() {
         <Stack.Screen name="Otp" component={Otp} />
         <Stack.Screen name="Newkitty" component={Newkitty} />
         <Stack.Screen name="Intro" component={Intro} />
+        <Stack.Screen name="Test" component={Test} />
+        <Stack.Screen name="GroupInfoPage" component={GroupInfoPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

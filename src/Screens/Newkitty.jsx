@@ -96,7 +96,7 @@ function Newkitty({navigation}) {
         />
         <TouchableOpacity className="absolute inset-y-0 right-0 m-2">
           <Image
-            src="../src/images/down.png" // Replace with your icon source
+            src="/../images/down.png" // Replace with your icon source
             className="w-6 h-6" // Adjust size of the icon if needed
           />
         </TouchableOpacity>

@@ -1,5 +1,6 @@
 import {View, Text, Button, Image, TouchableOpacity} from 'react-native';
 import React, {useState} from 'react';
+
 import AppIntroSlider from 'react-native-app-intro-slider';
 import {Dimensions} from 'react-native';
 function Signup({navigation}) {
@@ -28,7 +29,7 @@ function Signup({navigation}) {
   // const buttonlable = lable => {
   //   return (
   //     <View className="m-auto w-full flex h-full flex-row rounded-xl">
-  //       <Text className="m-auto -mt-10 bg-purple-500 p-2 py-3 px-36 font-com font-bold">
+  //       <Text className="m-auto -mt-10 bg-purple-500 p-2 py-3 px-52 font-com font-bold">
   //         {lable}
   //       </Text>
   //     </View>
@@ -36,9 +37,9 @@ function Signup({navigation}) {
   // };
   const buttonlable = lable => {
     return (
-      <TouchableOpacity className="m-auto flex w-full ">
+      <View className="m-auto flex w-full ">
         <Text className="font-bold ">{lable}</Text>
-      </TouchableOpacity>
+      </View>
     );
   };
   if (!showHomePage) {

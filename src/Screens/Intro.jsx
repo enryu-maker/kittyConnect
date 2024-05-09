@@ -7,7 +7,7 @@ const Intro = () => {
   const items = [
     {
       id: 1,
-      title: 'Welcome To Kitty',
+      title: 'Welcome To as',
       dec: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis accusantium delectus vitae earum cupiditate, labore suscipit est excepturi repellendus. Maxime, illum sapiente inventore molestias dolor totam porro dolore modi exercitationem',
       image: require('../images/img1.jpg'),
     },
